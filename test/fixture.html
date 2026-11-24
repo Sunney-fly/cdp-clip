@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Test Article — CDP Clip</title>
+  <meta property="og:title" content="Why Retrieval Beats Fine-Tuning">
+  <meta name="author" content="Test Author">
+  <meta name="description" content="A short fixture used to verify the extractor.">
+  <script>window.__noise = "should not appear";</script>
+  <style>.x{color:red}</style>
+</head>
+<body>
+  <nav><a href="/">Home</a><a href="/about">About</a></nav>
+  <article>
+    <h1>Why Retrieval Beats Fine-Tuning</h1>
+    <p>Retrieval-augmented generation keeps the model <strong>frozen</strong> and moves the
+       knowledge into an index you can <em>inspect</em>, version and delete.</p>
+    <h2>The three failure modes <a class="anchor" href="#modes">#</a></h2>
+    <ul>
+      <li>Stale weights after every document change</li>
+      <li>No way to cite a source
+        <ul><li>which breaks auditability</li></ul>
+      </li>
+      <li>Forgetting a fact requires a full retrain</li>
+    </ul>
+    <h2>Scoring</h2>
+    <blockquote>BM25 with k1=1.5 and b=0.75 is still a very strong baseline.</blockquote>
+    <pre><code class="language-python">def bm25(q, d, k1=1.5, b=0.75):
+    return score</code></pre>
+    <table>
+      <tr><th>Approach</th><th>Latency</th><th>Cost</th></tr>
+      <tr><td>Retrieval</td><td>40 ms</td><td>low</td></tr>
+      <tr><td>Fine-tune</td><td>2 s</td><td>high</td></tr>
+    </table>
+    <p>See <a href="https://example.com/paper">the paper</a> for details. Inline <code>k1</code> is tunable.</p>
+    <img src="./img/chart.png" alt="Chart of latency">
+    <p>Final paragraph with a line<br>break inside it.</p>
+  </article>
+  <footer>© 2026 nobody</footer>
+</body>
+</html>
