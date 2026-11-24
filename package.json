@@ -1,0 +1,43 @@
+{
+  "name": "cdp-clip",
+  "version": "0.1.0",
+  "description": "Clip any browser tab to clean Markdown over the Chrome DevTools Protocol. Zero dependencies, no extension.",
+  "type": "module",
+  "bin": {
+    "cdp-clip": "cdp-clip.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "files": [
+    "cdp-clip.mjs",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/smoke.test.mjs"
+  },
+  "keywords": [
+    "markdown",
+    "web-clipper",
+    "chrome-devtools-protocol",
+    "cdp",
+    "clip",
+    "llm",
+    "rag",
+    "readability",
+    "headless",
+    "zero-dependencies"
+  ],
+  "license": "MIT",
+  "author": "Sunney-fly",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sunney-fly/cdp-clip.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sunney-fly/cdp-clip/issues"
+  },
+  "homepage": "https://github.com/Sunney-fly/cdp-clip#readme"
+}
