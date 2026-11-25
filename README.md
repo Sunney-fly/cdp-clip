@@ -1,5 +1,7 @@
 # cdp-clip
 
+<img src="docs/demo.gif" width="760" alt="cdp-clip clipping a page in one command">
+
 **Clip any browser tab to clean Markdown — straight from the Chrome DevTools Protocol.**
 
 One file. Zero dependencies. No extension, no bookmarklet, no login hand-off.

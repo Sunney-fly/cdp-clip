@@ -1,5 +1,7 @@
 # cdp-clip
 
+<img src="docs/demo.gif" width="760" alt="cdp-clip 一条命令剪一个页面">
+
 **把任意浏览器标签页剪成干净的 Markdown —— 直接走 Chrome DevTools Protocol。**
 
 单文件、零依赖。不装扩展、不用书签、不搬登录态。
